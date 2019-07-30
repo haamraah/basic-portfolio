@@ -1,4 +1,23 @@
 
+    body {
+        background-image: url("../img/papyrus-bg.png");
+        background-repeat: repeat;
+        margin: 0;
+        font-family: Georgia, "Times New Roman", Times, serif;
+        
+    }
+    .longDiv {
+        border: 2px solid #cccccc;
+    margin: auto;
+        width: 99.4%;
+        height: 85px;
+        overflow: auto;
+        clear: both;
+        background-color: #ffffff ;
+        margin-bottom: 30px;
+    }
+        
+    
     .headerDiv {
         width: 960px;
         height: 85px;
@@ -8,22 +27,6 @@
         font-family: Georgia, 'Times New Roman', Times, serif;
     }
     
-  
-  
-    #mainBio {
-        padding: 10px 10px 10px 10px;
-        float: left;
-        text-align : justify;
-
-    }
-
-    body {
-        background-image: url("../img/papyrus-bg.png");
-        background-repeat: repeat;
-        margin: 0;
-        font-family: Georgia, "Times New Roman", Times, serif;
-        
-    }
     a:link {
         color: gray;
         text-decoration: none;
@@ -60,17 +63,26 @@
     #logo {
         height: 55px;
         text-align: center;
-        padding-top: 30px;
+        padding: 30px 20px 0px 20px;
         text-align: left;
-        background-color:blue;
-margin: 0 0 0 0 ;
+        background-color:#dddddd;
+        margin: 0 0 0 0 ;
+
+    }
+ 
+  
+  
+    #mainBio {
+        /* padding: 10px 10px 10px 10px; */
+        /* float: left; */
+        text-align : justify;
 
     }
 
+   
 
     #logo,
-    #imgSection,
-    #mainBio
+    #imgSection
      {
         float: left;
     }
@@ -79,42 +91,26 @@ margin: 0 0 0 0 ;
 #insideTitle {
     margin: 0 15px 0 15px;
 }
-.longDiv {
-    border: 2px solid black;
-margin: auto;
-    width: 99.4%;
-    height: 85px;
-    overflow: auto;
-    clear: both;
-    background-color: white ;
-    margin-bottom: 30px;
-}
     #imgSection {
         width: 200px;
         height: 200px;
-        margin-right: 10px;
-        margin-left: 15px;
+        /* margin-right: 10px; */
+        /* margin-left: 15px; */
+        margin: 15px 10px 10px 10px;
     }
-
+/* this DIV holding all the content in the middle */
     .myDiv {
+        border: 2px solid #dddddd;
         padding: 15px 15px 15px 15px;
         margin: auto;
         margin-bottom: 30px;
         width: 930px;
-        background-color: aqua;
+        background-color:#ffffff ;
         /* clear: both; */
         overflow: auto;
     }
-    #footerDiv {
-        background-color: beige;
-        padding-top: 20px;
-        position: relative;
-        bottom: 0 ;
-        height: 40px;
-        text-align: center;
-        /* clear: both; */
-        border-top: 10px solid gray;
-    }
+   
+    /* contact page style */
     input[type=text],input[type=email], textarea {
         width: 100%;
         padding: 12px;
@@ -124,18 +120,74 @@ margin: auto;
         margin-top: 6px;
         margin-bottom: 16px;
         resize: vertical;
+        
       }
+      #submitButton {
+        
+            background-color: #dddddd; /* Green */
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            border-radius: 4px;
+          
+      }
+      /* gallery page style */
       .imgs {
           
           height: 250px;
           width: 250px;
           margin: 15px 15px 15px 15px;
       }
-     .imgSection {
+     .imgSections {
+         position: relative;
          float: left;
      }
      .imgLable {
+         
+         padding-top: 15px;
+         text-align: center;
+         height: 35px;
+         width: 89.5%;
          position: absolute;
-         top: 30px;
+         bottom: 40px;
+         left: 15px;
+         background-color: cadetblue ;
 
      }
+     .mainSection {
+        float: left;
+     }
+     a.galleryLinks:visited {
+        color: gray;
+        text-decoration: none;
+      }
+      
+      /* mouse over link */
+      a.galleryLinks:hover {
+        color: gray;
+        text-decoration: none;
+
+      }
+      
+      /* selected link */
+      a.galleryLinks:active {
+        color: gray;
+        text-decoration: none;
+
+      }
+
+
+     #footerDiv {
+        background-color: #666666;
+        padding-top: 20px;
+        position: relative;
+        bottom: 0 ;
+        height: 40px;
+        text-align: center;
+        /* clear: both; */
+        border-top: 10px solid gray;
+    }
