@@ -162,20 +162,20 @@
         float: left;
      }
      a.galleryLinks:visited {
-        color: gray;
+        color: #ffffff;
         text-decoration: none;
       }
       
       /* mouse over link */
       a.galleryLinks:hover {
-        color: gray;
+        color: #ffffff;
         text-decoration: none;
 
       }
       
       /* selected link */
       a.galleryLinks:active {
-        color: gray;
+        color: #ffffff;
         text-decoration: none;
 
       }
